@@ -29,6 +29,9 @@ body
 .nav-row1 
 {
     padding: 35px 0 35px 15px;
+
+    display: flex;
+    justify-content: space-between;
 }
 .brand 
 {
@@ -36,6 +39,7 @@ body
     align-items: center;
 
     height: 34px;
+
 }
 .brand .logo 
 {
@@ -60,8 +64,97 @@ body
 
     display: inline-block;
 }
+.account 
+{
+    padding-right: 10px;
 
+    display: flex;
+    align-items: center;
+}
+.account .search-btn 
+{
+    display: inline-block;
+}
+.account .search-btn i
+{
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px;
 
+}
+.account .account-btn
+{
+    display: inline-block;
+    font-size: 16px;
+
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    border-left: 1px solid #fff;
+}
+.account .account-btn:hover 
+{
+    color: #5deb4b;
+}
+
+.nav-row2 
+{
+
+}
+#nav 
+{
+
+}
+#nav li 
+{
+    display: inline-block;
+    list-style-type: none;
+
+    position: relative;
+}
+#nav li a 
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 12px;
+    display: block;
+}
+#nav li:hover a 
+{
+    color: #5deb4b;
+}
+#nav .subnav 
+{
+    position: absolute;
+
+    min-width: 180px;
+    box-shadow: 0 5px 10px #ccc;
+
+    display: none;
+}
+#nav li:hover .subnav 
+{
+    display: block;
+}
+#nav .subnav li
+{
+    display: block;
+}
+#nav .subnav li a 
+{
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+
+    display: block;
+    padding: 10px 20px;
+}
+#nav .subnav li:hover a
+{
+    background-color: #eee;
+}
 
 #nav
 {
