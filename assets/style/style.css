@@ -9,6 +9,11 @@ html
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.white 
+{
+    color: #fff !important;
+}
+
 body 
 {
     
@@ -250,23 +255,24 @@ body
     line-height: 1.4;
 }
 
-
-.skill-group 
+.content-section 
 {
     padding: 70px 0 80px 0;
+}
+.skill-group 
+{
     background-color: rgba(93, 235, 75, 0.1);
 }
 .skill-list 
 {
     padding: 0 20px;
 }
-.skill-heading 
+.content-heading
 {
-    margin-bottom: 70px;
-
     color: #23085a;
-    font-size: 34px;
+    font-size: 40px;
     text-align: center;
+    margin-bottom: 40px;
 }
 .skill-section 
 {
@@ -349,15 +355,8 @@ body
 .course-section 
 {
     background-color: #23085a;
-    padding: 70px 0 80px 0;
 }
-.course-section h2 
-{
-    margin-bottom: 40px;
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-}
+
 .course-list
 {
     display: flex;
