@@ -272,8 +272,17 @@ body
     color: #23085a;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 40px;
 }
+.course-heading 
+{
+    margin-bottom: 40px;
+
+}
+.mb-60 
+{
+    margin-bottom: 60px;
+}
+
 .skill-section 
 {
     display: flex;
@@ -364,7 +373,7 @@ body
 }
 .course-list .course-item 
 {
-    width: 230px;
+    width: 300px;
     text-align: center;
     background-color: #fff;
     padding: 50px 30px;
@@ -404,7 +413,7 @@ body
 {
     background-color: rgba(93,235,75,0.1);
 }
-.topic-section p 
+.topic-section .title-des 
 {
     font-size: 28px;
     color: #23085a;
@@ -450,10 +459,81 @@ body
     border-left: none;
 }
 
-#slider
+.slider-wrapper 
 {
+    width: 1069px;
+    margin: 0 auto;
+    padding: 0 -15px;
+}
+.slider 
+{
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+.slider::-webkit-scrollbar
+{
+    display: none;
+}
+.slider-item 
+{
+    width: 293px;
+    height: 436px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: #fff;
+    flex-shrink: 0;
+    margin: 0 15px;
+}
+.slider-item img 
+{
+    width: 100%;
+    border-top-left-radius: 30px;
+}
+.slider-item .slider-item-content 
+{
+    padding: 23px 30px 0 30px;
+}
+.slider-item .slider-item-content a 
+{
+    font-size: 24px;
+    color: #23085a;
+    text-decoration: none;
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 15px;
+}
+.slider-item .slider-item-content p 
+{
+    font-size: 18px;
+    line-height: 1.43;
+
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+    line-clamp: 3; 
+   -webkit-box-orient: vertical;
 
 }
+
+.slider-nav 
+{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.slider-nav a 
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #23085a;
+    margin: 0 5px;
+}
+
 
 
 
